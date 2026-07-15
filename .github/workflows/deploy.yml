@@ -30,7 +30,7 @@ jobs:
 
       - name: Convert Word to accessible form
         env:
-          FORM_ENDPOINT: ${{ vars.FORM_ENDPOINT }
+          FORM_ENDPOINT: ${{ vars.FORM_ENDPOINT }}
         run: python build_form.py
 
       - name: Configure GitHub Pages
