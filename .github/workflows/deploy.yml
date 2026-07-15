@@ -29,7 +29,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Convert Word to accessible form
-        run: python scripts/build_form.py
+        run: python build_form.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
