@@ -15,7 +15,7 @@ from docx.oxml.table import CT_Tbl
 from docx.oxml.text.paragraph import CT_P
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
 DOCX_FILES = sorted(ROOT.glob("*.docx"))
 
